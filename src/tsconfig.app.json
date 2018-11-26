@@ -3,7 +3,10 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "module": "es2015",
-    "types": []
+    "types": [],
+    "paths": {
+      "app-mocks": ["mocks/index"]
+    }
   },
   "exclude": [
     "src/test.ts",
